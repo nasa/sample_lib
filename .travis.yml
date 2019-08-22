@@ -31,13 +31,13 @@ script:
   - git submodule init
   - git submodule update
   - rm -r apps/sample_lib
-  - cp -r ../sample_app apps/sample_lib
+  - cp -r ../sample_lib apps/sample_lib
   - cp cfe/cmake/Makefile.sample Makefile
   - cp -r cfe/cmake/sample_defs sample_defs
   - make prep
   - make
-  - cd apps/sample_app
+  - cd apps/sample_lib
   - cppcheck --force .
   - cmake .
   - make
-  - ls libsample_app.a
+  - ls libsample_lib.a
