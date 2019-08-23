@@ -18,8 +18,7 @@
 **      See the License for the specific language governing permissions and
 **      limitations under the License.
 **
-** File:
-**   $Id: sample_lib.c $
+** File: sample_lib.c
 **
 ** Purpose: 
 **   Sample CFS library
