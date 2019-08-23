@@ -18,8 +18,7 @@
 **      See the License for the specific language governing permissions and
 **      limitations under the License.
 **
-** File:
-**   $Id: sample_lib_version.h $
+** File: sample_lib_version.h
 **
 ** Purpose: 
 **  The SAMPLE Lib header file containing version number
