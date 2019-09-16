@@ -8,7 +8,10 @@ sample_lib implements SAMPLE_Function, as an example for how to build and link a
 
 ## Release Notes
 
-sample_lib version 1.0.0a is released as part of cFE 6.6.0a under the Apache 2.0 license, see [LICENSE](LICENSE-18128-Apache-2_0.pdf).
+- 1.1.0:
+  - Minor updates (see https://github.com/nasa/sample_lib/pull/6)
+- **1.0.0a OFFICIAL RELEASE**:
+  - Released as part of cFE 6.6.0a under the Apache 2.0 license, see [LICENSE](LICENSE-18128-Apache-2_0.pdf).
 
 Note the old GSFC Build toolset is deprecated (fsw/for_build/Makefile) in favor of cmake (CMakeLists.txt)
 
