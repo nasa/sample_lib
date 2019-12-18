@@ -6,14 +6,13 @@ This sample library is a non-flight example library implementation for the cFS B
 
 sample_lib implements SAMPLE_Function, as an example for how to build and link a library in cFS.
 
-## Release Notes
+## Version Notes
 
-- 1.1.0:
+- **1.1.0 OFFICIAL RELEASE**:
   - Minor updates (see https://github.com/nasa/sample_lib/pull/6)
+  - Released as part of cFE 6.7.0, Apache 2.0
 - **1.0.0a OFFICIAL RELEASE**:
-  - Released as part of cFE 6.6.0a under the Apache 2.0 license, see [LICENSE](LICENSE-18128-Apache-2_0.pdf).
-
-Note the old GSFC Build toolset is deprecated (fsw/for_build/Makefile) in favor of cmake (CMakeLists.txt)
+  - Released as part of cFE 6.6.0a, Apache 2.0
 
 ## Known issues
 
