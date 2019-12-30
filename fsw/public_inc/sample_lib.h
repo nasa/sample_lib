@@ -39,6 +39,27 @@
 /*************************************************************************
 ** Exported Functions
 *************************************************************************/
+
+/************************************************************************/
+/** \brief Library Initialization Function
+**
+**  \par Description
+**        This function is required by CFE to initialize the library
+**        It should be specified in the cfe_es_startup.scr file as part
+**        of loading this library.  It is not directly invoked by
+**        applications.
+**
+**  \par Assumptions, External Events, and Notes:
+**        None
+**
+**  \returns
+**  \retstmt Returns #CFE_SUCCESS if successful \endcode
+**  \endreturns
+**
+*************************************************************************/
+int32 SAMPLE_LibInit(void);
+
+
 /************************************************************************/
 /** \brief Sample Lib Function 
 **  
