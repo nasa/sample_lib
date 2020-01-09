@@ -8,6 +8,8 @@ sample_lib implements SAMPLE_Function, as an example for how to build and link a
 
 ## Version Notes
 
+- 1.1.1: DEVELOPMENT
+  - Minor updates (see https://github.com/nasa/sample_lib/pull/14)
 - **1.1.0 OFFICIAL RELEASE**:
   - Minor updates (see https://github.com/nasa/sample_lib/pull/6)
   - Released as part of cFE 6.7.0, Apache 2.0
