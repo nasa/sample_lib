@@ -20,7 +20,7 @@
 **
 ** File: sample_lib_version.h
 **
-** Purpose: 
+** Purpose:
 **  The SAMPLE Lib header file containing version number
 **
 ** Notes:
@@ -32,10 +32,10 @@
 
 #define SAMPLE_LIB_MAJOR_VERSION    1
 #define SAMPLE_LIB_MINOR_VERSION    1
-#define SAMPLE_LIB_REVISION         1
+#define SAMPLE_LIB_REVISION         2
 #define SAMPLE_LIB_MISSION_REV      0
 
-      
+
 #endif /* _sample_lib_version_h_ */
 
 /************************/
