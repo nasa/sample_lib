@@ -52,9 +52,8 @@
 **  \par Assumptions, External Events, and Notes:
 **        None
 **
-**  \returns
-**  \retstmt Returns #CFE_SUCCESS if successful \endcode
-**  \endreturns
+**  \returns Returns #CFE_SUCCESS
+**
 **
 *************************************************************************/
 int32 SAMPLE_LibInit(void);
@@ -69,9 +68,8 @@ int32 SAMPLE_LibInit(void);
 **  \par Assumptions, External Events, and Notes:
 **        None
 **       
-**  \returns
-**  \retstmt Returns #CFE_SUCCESS \endcode
-**  \endreturns
+**  \returns Returns #CFE_SUCCESS
+**
 ** 
 *************************************************************************/
 int32 SAMPLE_Function( void ); 
