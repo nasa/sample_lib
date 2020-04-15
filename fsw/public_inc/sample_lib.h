@@ -52,7 +52,7 @@
 **  \par Assumptions, External Events, and Notes:
 **        None
 **
-**  \returns Returns #CFE_SUCCESS
+**  \return Execution status, see \ref CFEReturnCodes
 **
 **
 *************************************************************************/
@@ -68,7 +68,7 @@ int32 SAMPLE_LibInit(void);
 **  \par Assumptions, External Events, and Notes:
 **        None
 **       
-**  \returns Returns #CFE_SUCCESS
+**  \return Execution status, see \ref CFEReturnCodes
 **
 ** 
 *************************************************************************/
