@@ -6,18 +6,30 @@ This sample library is a non-flight example library implementation for the cFS B
 
 sample_lib implements SAMPLE_Function, as an example for how to build and link a library in cFS.
 
-## Version Notes
+## Version History
 
-- 1.1.2: DEVELOPMENT
-  - Added coverage test and a stub library to facilitate unit test
-  - Minor updates (see https://github.com/nasa/sample_lib/pull/16)
-- 1.1.1: DEVELOPMENT
-  - Minor updates (see https://github.com/nasa/sample_lib/pull/14)
-- **1.1.0 OFFICIAL RELEASE**:
-  - Minor updates (see https://github.com/nasa/sample_lib/pull/6)
-  - Released as part of cFE 6.7.0, Apache 2.0
-- **1.0.0a OFFICIAL RELEASE**:
-  - Released as part of cFE 6.6.0a, Apache 2.0
+#### Development Build: 1.1.3
+
+- Coverage data `make lcov` includes the sample_lib code
+- See https://github.com/nasa/sample_lib/pull/22 for more details
+ 
+#### Development Build: 1.1.2
+
+- Added coverage test and a stub library to facilitate unit test
+- Minor updates (see https://github.com/nasa/sample_lib/pull/16)
+
+#### Development Build: 1.1.1
+
+- Minor updates (see https://github.com/nasa/sample_lib/pull/14)
+
+### ***OFFICIAL RELEASE: 1.1.0***
+
+- Minor updates (see https://github.com/nasa/sample_lib/pull/6)
+- Released as part of cFE 6.7.0, Apache 2.0
+
+### ***OFFICIAL RELEASE: 1.0.0a***
+
+- Released as part of cFE 6.6.0a, Apache 2.0
 
 ## Known issues
 
