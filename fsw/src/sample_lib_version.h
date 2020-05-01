@@ -32,7 +32,7 @@
 
 #define SAMPLE_LIB_MAJOR_VERSION    1
 #define SAMPLE_LIB_MINOR_VERSION    1
-#define SAMPLE_LIB_REVISION         2
+#define SAMPLE_LIB_REVISION         3
 #define SAMPLE_LIB_MISSION_REV      0
 
 
