@@ -71,4 +71,7 @@ int32 SAMPLE_LibInit(void)
 /* Sample Lib function stub                                        */
 /*                                                                 */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-int32 SAMPLE_Function(void) { return UT_DEFAULT_IMPL(SAMPLE_Function); } /* End SAMPLE_Function */
+int32 SAMPLE_Function(void)
+{
+    return UT_DEFAULT_IMPL(SAMPLE_Function);
+} /* End SAMPLE_Function */

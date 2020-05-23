@@ -166,7 +166,10 @@ void Test_SAMPLE_Function(void)
 /*
  * Setup function prior to every test
  */
-void Sample_UT_Setup(void) { UT_ResetState(0); }
+void Sample_UT_Setup(void)
+{
+    UT_ResetState(0);
+}
 
 /*
  * Teardown function after every test
