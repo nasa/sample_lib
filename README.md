@@ -8,6 +8,11 @@ sample_lib implements SAMPLE_Function, as an example for how to build and link a
 
 ## Version History
 
+#### Development Build: 1.1.4
+
+- Apply code style
+- See https://github.com/nasa/sample_lib/pull/24
+
 #### Development Build: 1.1.3
 
 - Coverage data `make lcov` includes the sample_lib code
