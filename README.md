@@ -27,7 +27,7 @@ sample_lib implements SAMPLE_Function, as an example for how to build and link a
 
 - Minor updates (see https://github.com/nasa/sample_lib/pull/14)
 
-### ***OFFICIAL RELEASE: 1.1.0***
+### ***OFFICIAL RELEASE: 1.1.0 - Aquila***
 
 - Minor updates (see https://github.com/nasa/sample_lib/pull/6)
 - Released as part of cFE 6.7.0, Apache 2.0
