@@ -92,6 +92,7 @@ foreach(SRCFILE ${LIB_SRC_FILES})
     
     # Add it to the set of tests to run as part of "make test"
     add_test(${TESTNAME} ${TESTNAME}-testrunner)
+    install(TARGETS ${TESTNAME}-testrunner DESTINATION ${TGTNAME}/${UT_INSTALL_SUBDIR})
     
 endforeach()
 
