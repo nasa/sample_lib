@@ -65,8 +65,7 @@ int32 SAMPLE_LibInit(void)
     /* ensure termination */
     SAMPLE_Buffer[sizeof(SAMPLE_Buffer) - 1] = 0;
 
-    OS_printf("SAMPLE Lib Initialized.  Version %d.%d.%d.%d\n", SAMPLE_LIB_MAJOR_VERSION, SAMPLE_LIB_MINOR_VERSION,
-              SAMPLE_LIB_REVISION, SAMPLE_LIB_MISSION_REV);
+    OS_printf("SAMPLE Lib Initialized.%s\n", SAMPLE_LIB_VERSION_STRING);
 
     return CFE_SUCCESS;
 
