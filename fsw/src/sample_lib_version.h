@@ -32,7 +32,7 @@
 
 /* Development Build Macro Definitions */
 
-#define SAMPLE_LIB_BUILD_NUMBER 26 /*!< Development Build: Number of commits since baseline */
+#define SAMPLE_LIB_BUILD_NUMBER 27 /*!< Development Build: Number of commits since baseline */
 #define SAMPLE_LIB_BUILD_BASELINE "v1.1.0" /*!< Development Build: git tag that is the base for the current development */
 
 /* Version Macro Definitions */
@@ -56,7 +56,7 @@
  * See @ref cfsversions for format differences between development and release versions. 
 */          
 #define SAMPLE_LIB_VERSION_STRING                                                          \
-    " Sample Lib Development Build "                                                     \
+    " Sample Lib DEVELOPMENT BUILD "                                                     \
     SAMPLE_LIB_VERSION                                                                     \
     ", Last Official Release: v1.1.0"   /* For full support please use this version */
 

@@ -8,29 +8,35 @@ sample_lib implements SAMPLE_Function, as an example for how to build and link a
 
 ## Version History
 
-#### Development Build: 1.1.4
+### Development Build: 1.1.0+dev27
+
+- Install unit test as part of cmake recipe. Sample lib test runner now shows up in expected install directory
+- Add build number and baseline to version reporting
+- See <https://github.com/nasa/sample_lib/pull/28>
+
+### Development Build: 1.1.4
 
 - Apply code style
-- See https://github.com/nasa/sample_lib/pull/24
+- See <https://github.com/nasa/sample_lib/pull/24>
 
-#### Development Build: 1.1.3
+### Development Build: 1.1.3
 
 - Coverage data `make lcov` includes the sample_lib code
-- See https://github.com/nasa/sample_lib/pull/22 for more details
+- See <https://github.com/nasa/sample_lib/pull/22> 
  
-#### Development Build: 1.1.2
+### Development Build: 1.1.2
 
 - Added coverage test and a stub library to facilitate unit test
-- Minor updates (see https://github.com/nasa/sample_lib/pull/16)
+- See <https://github.com/nasa/sample_lib/pull/16>
 
-#### Development Build: 1.1.1
+### Development Build: 1.1.1
 
-- Minor updates (see https://github.com/nasa/sample_lib/pull/14)
+- See <https://github.com/nasa/sample_lib/pull/14>
 
 ### ***OFFICIAL RELEASE: 1.1.0 - Aquila***
 
-- Minor updates (see https://github.com/nasa/sample_lib/pull/6)
 - Released as part of cFE 6.7.0, Apache 2.0
+- See <https://github.com/nasa/sample_lib/pull/6>
 
 ### ***OFFICIAL RELEASE: 1.0.0a***
 
