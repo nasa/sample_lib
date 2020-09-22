@@ -32,8 +32,8 @@
 
 /* Development Build Macro Definitions */
 
-#define SAMPLE_LIB_BUILD_NUMBER 27 /*!< Development Build: Number of commits since baseline */
-#define SAMPLE_LIB_BUILD_BASELINE "v1.1.0" /*!< Development Build: git tag that is the base for the current development */
+#define SAMPLE_LIB_BUILD_NUMBER 3 /*!< Development Build: Number of commits since baseline */
+#define SAMPLE_LIB_BUILD_BASELINE "v1.2.0-rc1" /*!< Development Build: git tag that is the base for the current development */
 
 /* Version Macro Definitions */
 

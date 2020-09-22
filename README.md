@@ -8,6 +8,11 @@ sample_lib implements SAMPLE_Function, as an example for how to build and link a
 
 ## Version History
 
+### Development Build: v1.2.0-rc1+dev3
+
+- Installs unit test to target directory.
+- See <https://github.com/nasa/sample_lib/pull/32>
+
 ### Development Build: 1.1.0+dev27
 
 - Install unit test as part of cmake recipe. Sample lib test runner now shows up in expected install directory
