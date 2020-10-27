@@ -59,7 +59,7 @@ typedef struct
     bool format_string_valid;
     bool printf_content_valid;
 
-} SAMPLE_Function_TestState_t;
+} SAMPLE_LIB_Function_TestState_t;
 
 /*
  * A local helper (hook) function for the OS_printf stub provided by OSAL.
@@ -68,7 +68,7 @@ typedef struct
 static int32 UT_printf_hook(void *UserObj, int32 StubRetcode, uint32 CallCount, const UT_StubContext_t *Context,
                             va_list va)
 {
-    SAMPLE_Function_TestState_t *State = UserObj;
+    SAMPLE_LIB_Function_TestState_t *State = UserObj;
 
     /*
      * The OS_printf() stub passes format string as the argument
@@ -76,7 +76,7 @@ static int32 UT_printf_hook(void *UserObj, int32 StubRetcode, uint32 CallCount, 
      * detail would not be needed, but this serves as an example
      * of how it can be done.
      */
-    if (Context->ArgCount > 0 && strcmp(Context->ArgPtr[0], "SAMPLE_Function called, buffer=\'%s\'\n") == 0)
+    if (Context->ArgCount > 0 && strcmp(Context->ArgPtr[0], "SAMPLE_LIB_Function called, buffer=\'%s\'\n") == 0)
     {
         State->format_string_valid = true;
 
@@ -101,11 +101,11 @@ static int32 UT_printf_hook(void *UserObj, int32 StubRetcode, uint32 CallCount, 
 **********************************************************************************
 */
 
-void Test_SAMPLE_LibInit(void)
+void Test_SAMPLE_LIB_Init(void)
 {
     /*
      * Test Case For:
-     * int32 SAMPLE_LibInit( void )
+     * int32 SAMPLE_LIB_Init( void )
      */
 
     /* Set a data buffer for strncpy()
@@ -113,7 +113,7 @@ void Test_SAMPLE_LibInit(void)
     UT_SetDataBuffer(UT_KEY(OCS_strncpy), UT_TESTBUFFER, sizeof(UT_TESTBUFFER), false);
 
     /* nominal case should return SUCCESS */
-    UT_TEST_FUNCTION_RC(SAMPLE_LibInit(), CFE_SUCCESS);
+    UT_TEST_FUNCTION_RC(SAMPLE_LIB_Init(), CFE_SUCCESS);
 
     /* A simple confirmation that "OS_printf" was invoked
      * exactly 1 time during the previous function call  */
@@ -126,22 +126,22 @@ void Test_SAMPLE_LibInit(void)
      * This requires use of the local accessor routine to get to the
      * internal buffer, which is declared "static"
      */
-    UtAssert_StrCmp(UT_TESTBUFFER, SAMPLE_Buffer, "Internal buffer content valid");
+    UtAssert_StrCmp(UT_TESTBUFFER, SAMPLE_LIB_Buffer, "Internal buffer content valid");
 
     /* Test failure of the underlying library call */
     UT_SetForceFail(UT_KEY(OCS_strncpy), -1);
 
     /* off-nominal case should return CFE_STATUS_NOT_IMPLEMENTED */
-    UT_TEST_FUNCTION_RC(SAMPLE_LibInit(), CFE_STATUS_NOT_IMPLEMENTED);
+    UT_TEST_FUNCTION_RC(SAMPLE_LIB_Init(), CFE_STATUS_NOT_IMPLEMENTED);
 }
 
-void Test_SAMPLE_Function(void)
+void Test_SAMPLE_LIB_Function(void)
 {
     /*
      * Test Case For:
-     * void SAMPLE_Function( void )
+     * void SAMPLE_LIB_Function( void )
      */
-    SAMPLE_Function_TestState_t state;
+    SAMPLE_LIB_Function_TestState_t state;
 
     /*
      * This function has no conditionals, but it does call
@@ -153,7 +153,7 @@ void Test_SAMPLE_Function(void)
     /*
      * Invoke the actual function
      */
-    SAMPLE_Function();
+    SAMPLE_LIB_Function();
 
     /*
      * Make sure that the extra conditions checked by the
@@ -181,6 +181,6 @@ void Sample_UT_TearDown(void) {}
  */
 void UtTest_Setup(void)
 {
-    ADD_TEST(SAMPLE_LibInit);
-    ADD_TEST(SAMPLE_Function);
+    ADD_TEST(SAMPLE_LIB_Init);
+    ADD_TEST(SAMPLE_LIB_Function);
 }
