@@ -56,7 +56,7 @@
 **
 **
 *************************************************************************/
-int32 SAMPLE_LibInit(void);
+int32 SAMPLE_LIB_Init(void);
 
 /************************************************************************/
 /** \brief Sample Lib Function
@@ -71,7 +71,7 @@ int32 SAMPLE_LibInit(void);
 **
 **
 *************************************************************************/
-int32 SAMPLE_Function(void);
+int32 SAMPLE_LIB_Function(void);
 
 #endif /* _sample_lib_h_ */
 
