@@ -41,7 +41,7 @@
 /*************************************************************************
 ** Internal Data Structures
 *************************************************************************/
-extern char SAMPLE_Buffer[SAMPLE_LIB_BUFFER_SIZE];
+extern char SAMPLE_LIB_Buffer[SAMPLE_LIB_BUFFER_SIZE];
 
 /*************************************************************************
 ** Function Declarations
@@ -50,7 +50,7 @@ extern char SAMPLE_Buffer[SAMPLE_LIB_BUFFER_SIZE];
 /**
  * Library initialization routine/entry point
  */
-int32 SAMPLE_LibInit(void);
+int32 SAMPLE_LIB_Init(void);
 
 #endif /* _sample_lib_internal_h_ */
 

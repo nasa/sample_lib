@@ -52,7 +52,7 @@
 /* Sample Init function stub                                       */
 /*                                                                 */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-int32 SAMPLE_LibInit(void)
+int32 SAMPLE_LIB_Init(void)
 {
     /*
      * The UT_DEFAULT_IMPL macro is generally sufficient
@@ -62,16 +62,16 @@ int32 SAMPLE_LibInit(void)
      * The default return value is 0, unless the test
      * case configures something different.
      */
-    return UT_DEFAULT_IMPL(SAMPLE_LibInit);
+    return UT_DEFAULT_IMPL(SAMPLE_LIB_Init);
 
-} /* End SAMPLE_LibInit */
+} /* End SAMPLE_LIB_Init */
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /*                                                                 */
 /* Sample Lib function stub                                        */
 /*                                                                 */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-int32 SAMPLE_Function(void)
+int32 SAMPLE_LIB_Function(void)
 {
-    return UT_DEFAULT_IMPL(SAMPLE_Function);
-} /* End SAMPLE_Function */
+    return UT_DEFAULT_IMPL(SAMPLE_LIB_Function);
+} /* End SAMPLE_LIB_Function */

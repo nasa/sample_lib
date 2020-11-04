@@ -21,44 +21,47 @@
 *************************************************************************/
 
 /*! @file sample_lib_version.h
- * @brief Purpose: 
- * 
+ * @brief Purpose:
+ *
  *  The Sample Lib header file containing version information
- * 
+ *
  */
- 
+
 #ifndef SAMPLE_LIB_VERSION_H
 #define SAMPLE_LIB_VERSION_H
 
 /* Development Build Macro Definitions */
 
-#define SAMPLE_LIB_BUILD_NUMBER 3 /*!< Development Build: Number of commits since baseline */
-#define SAMPLE_LIB_BUILD_BASELINE "v1.2.0-rc1" /*!< Development Build: git tag that is the base for the current development */
+#define SAMPLE_LIB_BUILD_NUMBER 8 /*!< Development Build: Number of commits since baseline */
+#define SAMPLE_LIB_BUILD_BASELINE \
+    "v1.2.0-rc1" /*!< Development Build: git tag that is the base for the current development */
 
 /* Version Macro Definitions */
 
 #define SAMPLE_LIB_MAJOR_VERSION 1 /*!< @brief ONLY APPLY for OFFICIAL releases. Major version number. */
 #define SAMPLE_LIB_MINOR_VERSION 1 /*!< @brief ONLY APPLY for OFFICIAL releases. Minor version number. */
-#define SAMPLE_LIB_REVISION      0 /*!< @brief ONLY APPLY for OFFICIAL releases. Revision version number. */
-#define SAMPLE_LIB_MISSION_REV   0 /*!< @brief ONLY USED by MISSION Implementations. Mission revision */
+#define SAMPLE_LIB_REVISION                                                                                         \
+    99 /*!< @brief ONLY APPLY for OFFICIAL releases. Revision version number. Value of "99" indicates an unreleased \
+          development version.  */
+#define SAMPLE_LIB_MISSION_REV 0 /*!< @brief ONLY USED by MISSION Implementations. Mission revision */
 
 #define SAMPLE_LIB_STR_HELPER(x) #x /*!< @brief Helper function to concatenate strings from integer macros */
-#define SAMPLE_LIB_STR(x)        SAMPLE_LIB_STR_HELPER(x) /*!< @brief Helper function to concatenate strings from integer macros */
+#define SAMPLE_LIB_STR(x) \
+    SAMPLE_LIB_STR_HELPER(x) /*!< @brief Helper function to concatenate strings from integer macros */
 
-/*! @brief Development Build Version Number. 
+/*! @brief Development Build Version Number.
  * @details Baseline git tag + Number of commits since baseline. @n
  * See @ref cfsversions for format differences between development and release versions.
  */
-#define SAMPLE_LIB_VERSION SAMPLE_LIB_BUILD_BASELINE "+dev" SAMPLE_LIB_STR(SAMPLE_LIB_BUILD_NUMBER) 
+#define SAMPLE_LIB_VERSION SAMPLE_LIB_BUILD_BASELINE "+dev" SAMPLE_LIB_STR(SAMPLE_LIB_BUILD_NUMBER)
 
 /*! @brief Development Build Version String.
- * @details Reports the current development build's baseline, number, and name. Also includes a note about the latest official version. @n
- * See @ref cfsversions for format differences between development and release versions. 
-*/          
-#define SAMPLE_LIB_VERSION_STRING                                                          \
-    " Sample Lib DEVELOPMENT BUILD "                                                     \
-    SAMPLE_LIB_VERSION                                                                     \
-    ", Last Official Release: v1.1.0"   /* For full support please use this version */
+ * @details Reports the current development build's baseline, number, and name. Also includes a note about the latest
+ * official version. @n See @ref cfsversions for format differences between development and release versions.
+ */
+#define SAMPLE_LIB_VERSION_STRING                       \
+    " Sample Lib DEVELOPMENT BUILD " SAMPLE_LIB_VERSION \
+    ", Last Official Release: v1.1.0" /* For full support please use this version */
 
 #endif /* SAMPLE_LIB_VERSION_H */
 
