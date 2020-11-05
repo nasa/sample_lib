@@ -129,7 +129,7 @@ void Test_SAMPLE_LIB_Init(void)
     UtAssert_StrCmp(UT_TESTBUFFER, SAMPLE_LIB_Buffer, "Internal buffer content valid");
 
     /* Test failure of the underlying library call */
-    UT_SetForceFail(UT_KEY(OCS_strncpy), -1);
+    UT_SetDefaultReturnValue(UT_KEY(OCS_strncpy), -1);
 
     /* off-nominal case should return CFE_STATUS_NOT_IMPLEMENTED */
     UT_TEST_FUNCTION_RC(SAMPLE_LIB_Init(), CFE_STATUS_NOT_IMPLEMENTED);
