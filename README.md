@@ -8,6 +8,11 @@ sample_lib implements SAMPLE_Function, as an example for how to build and link a
 
 ## Version History
 
+### Development Build: v1.2.0-rc1+dev10
+
+- Rename `UT_SetForceFail` to `UT_SetDefaultReturnValue` since some functions that retain more than 1 value are not necessarily failing
+- See <https://github.com/nasa/sample_lib/pull/38>
+
 ### Development Build: v1.2.0-rc1+dev8
 
 - No behavior changes. All identifiers now use the prefix `SAMPLE_LIB_`. Changes the name of the init function from SAMPLE_LibInit to SAMPLE_LIB_Init which affects the CFE startup script.
