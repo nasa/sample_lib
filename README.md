@@ -1,3 +1,6 @@
+![Static Analysis](https://github.com/nasa/sample_lib/workflows/Static%20Analysis/badge.svg)
+![Format Check](https://github.com/nasa/sample_lib/workflows/Format%20Check/badge.svg)
+
 # Core Flight System : Framework : App : Sample Lib
 
 This repository contains a sample library (sample_lib), which is a framework component of the Core Flight System.
