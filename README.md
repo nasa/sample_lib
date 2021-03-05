@@ -11,6 +11,12 @@ sample_lib implements SAMPLE_Function, as an example for how to build and link a
 
 ## Version History
 
+### Development Build: v1.2.0-rc1+dev24
+
+- Fix #46, simplify build to use wrappers and interface libs
+- Fix #48, Add Testing Tools to the Security Policy
+- See <https://github.com/nasa/sample_lib/pull/50>
+
 ### Development Build: v1.2.0-rc1+dev10
 
 - Rename `UT_SetForceFail` to `UT_SetDefaultReturnValue` since some functions that retain more than 1 value are not necessarily failing
