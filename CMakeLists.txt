@@ -1,17 +1,12 @@
-cmake_minimum_required(VERSION 2.6.4)
 project(CFE_SAMPLE_LIB C)
 
-include_directories(fsw/public_inc)
-
-# The shared OSAL and cFE include directories should always be used
-# Note that this intentionally does NOT include PSP-specific includes, just the generic
-include_directories(${CFECORE_SOURCE_DIR}/src/inc)
-include_directories(${CFEPSP_SOURCE_DIR}/fsw/inc)
-
-aux_source_directory(fsw/src LIB_SRC_FILES)
-
 # Create the app module
-add_cfe_app(sample_lib ${LIB_SRC_FILES})
+add_cfe_app(sample_lib fsw/src/sample_lib.c)
+
+# The API to this library (which may be invoked/referenced from other apps)
+# is stored in fsw/public_inc.  Using "target_include_directories" is the 
+# preferred method of indicating this (vs. directory-scope "include_directories").
+target_include_directories(sample_lib PUBLIC fsw/public_inc)
 
 if (ENABLE_UNIT_TESTS)
   add_subdirectory(ut-stubs)
