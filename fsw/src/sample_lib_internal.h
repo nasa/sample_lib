@@ -30,7 +30,7 @@
 #define _sample_lib_internal_h_
 
 /* Include all external/public definitions */
-#include <sample_lib.h>
+#include "sample_lib.h"
 
 /*************************************************************************
 ** Macro Definitions

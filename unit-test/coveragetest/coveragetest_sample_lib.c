@@ -45,7 +45,7 @@
  * as well as the normal system string.h.  It is differentiated
  * by explicitly specifying the "overrides/" prefix here.
  */
-#include <OCS_string.h>
+#include "OCS_string.h"
 #include <stdbool.h>
 #include <stdarg.h>
 
