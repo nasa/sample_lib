@@ -47,7 +47,7 @@
 /*
  * This is for the prototype of the "OCS_strncpy()" function
  */
-#include <OCS_string.h>
+#include "OCS_string.h"
 
 /* **********************************
  * Implementation of OCS_strncpy stub
