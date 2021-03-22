@@ -11,6 +11,12 @@ sample_lib implements SAMPLE_Function, as an example for how to build and link a
 
 ## Version History
 
+### Development Build: v1.2.0-rc1+dev30
+
+- Replace <> with " for local includes
+- Adds CONTRIBUTING.md that links to the main cFS contributing guide.
+- See <https://github.com/nasa/sample_lib/pull/55>
+
 ### Development Build: v1.2.0-rc1+dev24
 
 - Fix #46, simplify build to use wrappers and interface libs
