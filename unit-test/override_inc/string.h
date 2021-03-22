@@ -33,7 +33,7 @@
 #ifndef _OVERRIDE_STRING_H_
 #define _OVERRIDE_STRING_H_
 
-#include <OCS_string.h>
+#include "OCS_string.h"
 
 /* ----------------------------------------- */
 /* mappings for declarations in string.h */
