@@ -68,7 +68,8 @@ typedef struct
 static int32 UT_printf_hook(void *UserObj, int32 StubRetcode, uint32 CallCount, const UT_StubContext_t *Context,
                             va_list va)
 {
-    SAMPLE_LIB_Function_TestState_t *State = UserObj;
+    SAMPLE_LIB_Function_TestState_t *State  = UserObj;
+    const char *                     string = UT_Hook_GetArgValueByName(Context, "string", const char *);
 
     /*
      * The OS_printf() stub passes format string as the argument
@@ -76,7 +77,7 @@ static int32 UT_printf_hook(void *UserObj, int32 StubRetcode, uint32 CallCount, 
      * detail would not be needed, but this serves as an example
      * of how it can be done.
      */
-    if (Context->ArgCount > 0 && strcmp(Context->ArgPtr[0], "SAMPLE_LIB_Function called, buffer=\'%s\'\n") == 0)
+    if (Context->ArgCount > 0 && strcmp(string, "SAMPLE_LIB_Function called, buffer=\'%s\'\n") == 0)
     {
         State->format_string_valid = true;
 
