@@ -11,6 +11,11 @@ sample_lib implements SAMPLE_Function, as an example for how to build and link a
 
 ## Version History
 
+### Development Build: v1.2.0-rc1+dev34
+
+- Replace direct ref to ArgPtr with `UT_Hook_GetArgValueByName` macro. Reading the pointer directly is not advised.
+- See <https://github.com/nasa/sample_lib/pull/61> and <https://github.com/nasa/cFS/pull/250>
+
 ### Development Build: v1.2.0-rc1+dev30
 
 - Replace <> with " for local includes
