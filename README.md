@@ -11,6 +11,11 @@ sample_lib implements SAMPLE_Function, as an example for how to build and link a
 
 ## Version History
 
+### Development Build: v1.2.0-rc1+dev38
+
+-  Implement Coding Standard in CodeQL workflow
+- See <https://github.com/nasa/sample_lib/pull/64> and <https://github.com/nasa/cFS/pull/270>
+
 ### Development Build: v1.2.0-rc1+dev34
 
 - Replace direct ref to ArgPtr with `UT_Hook_GetArgValueByName` macro. Reading the pointer directly is not advised.
@@ -24,8 +29,8 @@ sample_lib implements SAMPLE_Function, as an example for how to build and link a
 
 ### Development Build: v1.2.0-rc1+dev24
 
-- Fix #46, simplify build to use wrappers and interface libs
-- Fix #48, Add Testing Tools to the Security Policy
+- Simplify build to use wrappers and interface libs
+- Add Testing Tools to the Security Policy
 - See <https://github.com/nasa/sample_lib/pull/50>
 
 ### Development Build: v1.2.0-rc1+dev10

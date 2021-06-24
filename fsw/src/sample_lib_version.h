@@ -32,7 +32,7 @@
 
 /* Development Build Macro Definitions */
 
-#define SAMPLE_LIB_BUILD_NUMBER 34 /*!< Development Build: Number of commits since baseline */
+#define SAMPLE_LIB_BUILD_NUMBER 38 /*!< Development Build: Number of commits since baseline */
 #define SAMPLE_LIB_BUILD_BASELINE \
     "v1.2.0-rc1" /*!< Development Build: git tag that is the base for the current development */
 
