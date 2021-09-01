@@ -31,7 +31,7 @@
 ** Notes:
 ** For most Unit tests this is _NOT_ necessary.  Whenever
 ** possible, FSW code should only call CFE/OSAL/PSP code for
-** which there are already stubs available and the the
+** which there are already stubs available and the
 ** replacements can be made transparently at link time.
 */
 
