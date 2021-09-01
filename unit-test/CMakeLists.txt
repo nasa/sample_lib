@@ -37,7 +37,7 @@ add_cfe_coverage_stubs(sample_lib_overrides
     override_src/libc_string_stubs.c
 )
 
-# Add a coverate test excutable called "sample_lib-ALL" that 
+# Add a coverage test executable called "sample_lib-ALL" that 
 # covers all of the functions in sample_lib.  
 #
 # Also note in a more complex app/lib the coverage test can also
