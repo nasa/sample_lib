@@ -110,7 +110,7 @@ void Test_SAMPLE_LIB_Init(void)
      */
 
     /* Set a data buffer for strncpy()
-     * This overriddes what it would normally do */
+     * This overrides what it would normally do */
     UT_SetDataBuffer(UT_KEY(OCS_strncpy), UT_TESTBUFFER, sizeof(UT_TESTBUFFER), false);
 
     /* nominal case should return SUCCESS */
