@@ -11,6 +11,11 @@ sample_lib implements SAMPLE_Function, as an example for how to build and link a
 
 ## Version History
 
+### Development Build: v1.3.0-rc4+dev3
+
+- Update baseline to cFS-Caelum-rc4: v1.3.0-rc4
+- See <https://github.com/nasa/cfs/issues/390>
+
 ### Development Build: v1.2.0-rc1+dev38
 
 -  Implement Coding Standard in CodeQL workflow

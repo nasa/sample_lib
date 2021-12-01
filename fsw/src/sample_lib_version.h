@@ -32,18 +32,23 @@
 
 /* Development Build Macro Definitions */
 
-#define SAMPLE_LIB_BUILD_NUMBER 38 /*!< Development Build: Number of commits since baseline */
+#define SAMPLE_LIB_BUILD_NUMBER 3 /*!< Development Build: Number of commits since baseline */
 #define SAMPLE_LIB_BUILD_BASELINE \
-    "v1.2.0-rc1" /*!< Development Build: git tag that is the base for the current development */
+    "v1.3.0-rc4" /*!< Development Build: git tag that is the base for the current development */
 
 /* Version Macro Definitions */
 
 #define SAMPLE_LIB_MAJOR_VERSION 1 /*!< @brief ONLY APPLY for OFFICIAL releases. Major version number. */
 #define SAMPLE_LIB_MINOR_VERSION 1 /*!< @brief ONLY APPLY for OFFICIAL releases. Minor version number. */
-#define SAMPLE_LIB_REVISION                                                                                         \
-    99 /*!< @brief ONLY APPLY for OFFICIAL releases. Revision version number. Value of "99" indicates an unreleased \
-          development version.  */
-#define SAMPLE_LIB_MISSION_REV 0 /*!< @brief ONLY USED by MISSION Implementations. Mission revision */
+#define SAMPLE_LIB_REVISION      0 /*!< @brief ONLY APPLY for OFFICIAL releases. Revision number.      */
+
+/*!
+ * @brief Mission revision.
+ *
+ * Set to 0 on OFFICIAL releases, and set to 255 (0xFF) on development versions.
+ * Values 1-254 are reserved for mission use to denote patches/customizations as needed.
+ */
+#define SAMPLE_LIB_MISSION_REV 0xFF
 
 #define SAMPLE_LIB_STR_HELPER(x) #x /*!< @brief Helper function to concatenate strings from integer macros */
 #define SAMPLE_LIB_STR(x) \
