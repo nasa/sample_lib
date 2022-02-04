@@ -25,8 +25,8 @@
 ** Common definitions for all sample_lib coverage tests
 */
 
-#ifndef _SAMPLE_LIB_COVERAGETEST_COMMON_H_
-#define _SAMPLE_LIB_COVERAGETEST_COMMON_H_
+#ifndef SAMPLE_LIB_COVERAGETEST_COMMON_H
+#define SAMPLE_LIB_COVERAGETEST_COMMON_H
 
 /*
  * Includes

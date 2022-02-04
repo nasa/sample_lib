@@ -30,8 +30,8 @@
 ** strncpy().
 */
 
-#ifndef _OVERRIDE_STRING_H_
-#define _OVERRIDE_STRING_H_
+#ifndef OVERRIDE_STRING_H
+#define OVERRIDE_STRING_H
 
 #include "OCS_string.h"
 
@@ -41,4 +41,4 @@
 
 #define strncpy OCS_strncpy
 
-#endif /* _OVERRIDE_STRING_H_ */
+#endif
