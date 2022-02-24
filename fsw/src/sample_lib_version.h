@@ -20,7 +20,7 @@
 **
 *************************************************************************/
 
-/*! @file sample_lib_version.h
+/*! @file
  * @brief Purpose:
  *
  *  The Sample Lib header file containing version information
