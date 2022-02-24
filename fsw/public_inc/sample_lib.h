@@ -24,8 +24,8 @@
 **   Specification for the sample library functions.
 **
 *************************************************************************/
-#ifndef _sample_lib_h_
-#define _sample_lib_h_
+#ifndef SAMPLE_LIB_H
+#define SAMPLE_LIB_H
 
 /************************************************************************
 ** Includes
@@ -73,8 +73,4 @@ int32 SAMPLE_LIB_Init(void);
 *************************************************************************/
 int32 SAMPLE_LIB_Function(void);
 
-#endif /* _sample_lib_h_ */
-
-/************************/
-/*  End of File Comment */
-/************************/
+#endif

@@ -30,8 +30,8 @@
 ** strncpy().
 */
 
-#ifndef _STUB_STRING_H_
-#define _STUB_STRING_H_
+#ifndef OSC_STRING_H
+#define OSC_STRING_H
 
 /* ----------------------------------------- */
 /* prototypes normally declared in string.h */
@@ -39,4 +39,4 @@
 
 extern char *OCS_strncpy(char *dest, const char *src, unsigned long size);
 
-#endif /* _STUB_STRING_H_ */
+#endif

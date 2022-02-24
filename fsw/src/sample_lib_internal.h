@@ -26,8 +26,8 @@
 ** Notes:
 **
 *************************************************************************/
-#ifndef _sample_lib_internal_h_
-#define _sample_lib_internal_h_
+#ifndef SAMPLE_LIB_INTERNAL_H
+#define SAMPLE_LIB_INTERNAL_H
 
 /* Include all external/public definitions */
 #include "sample_lib.h"
@@ -52,8 +52,4 @@ extern char SAMPLE_LIB_Buffer[SAMPLE_LIB_BUFFER_SIZE];
  */
 int32 SAMPLE_LIB_Init(void);
 
-#endif /* _sample_lib_internal_h_ */
-
-/************************/
-/*  End of File Comment */
-/************************/
+#endif
