@@ -11,6 +11,12 @@ sample_lib implements SAMPLE_Function, as an example for how to build and link a
 
 ## Version History
 
+### Development Build: v1.3.0-rc4+dev9
+
+- Apply header guard standard 
+- Remove explicit filename doxygen comments 
+- See <https://github.com/nasa/cFS/pull/432>
+
 ### Development Build: v1.3.0-rc4+dev3
 
 - Update baseline to cFS-Caelum-rc4: v1.3.0-rc4
