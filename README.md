@@ -11,6 +11,11 @@ sample_lib implements SAMPLE_Function, as an example for how to build and link a
 
 ## Version History
 
+### Development Build: v1.3.0-rc4+dev16
+
+- Update Copyright Headers
+- Standardize version.h 
+- See <https://github.com/nasa/sample_lib/pull/80> and <https://github.com/nasa/cFS/445>
 ### Development Build: v1.3.0-rc4+dev9
 
 - Apply header guard standard 
