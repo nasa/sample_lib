@@ -76,7 +76,7 @@ int32 SAMPLE_LIB_Function(void)
 {
     OS_printf("SAMPLE_LIB_Function called, buffer=\'%s\'\n", SAMPLE_LIB_Buffer);
 
-    return (CFE_SUCCESS);
+    return CFE_SUCCESS;
 
 } /* End SAMPLE_LIB_Function */
 
