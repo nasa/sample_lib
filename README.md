@@ -11,6 +11,10 @@ sample_lib implements SAMPLE_Function, as an example for how to build and link a
 
 ## Version History
 
+### Development Build: v1.3.0-rc4+dev20
+- Remove unnecessary parentheses around return values.
+- See <https://github.com/nasa/sample_lib/pull/84>
+
 ### Development Build: v1.3.0-rc4+dev16
 
 - Update Copyright Headers
