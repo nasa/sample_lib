@@ -64,8 +64,7 @@ int32 SAMPLE_LIB_Init(void)
     OS_printf("SAMPLE Lib Initialized.%s\n", SAMPLE_LIB_VERSION_STRING);
 
     return CFE_SUCCESS;
-
-} /* End SAMPLE_LIB_Init */
+}
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /*                                                                 */
@@ -77,9 +76,4 @@ int32 SAMPLE_LIB_Function(void)
     OS_printf("SAMPLE_LIB_Function called, buffer=\'%s\'\n", SAMPLE_LIB_Buffer);
 
     return CFE_SUCCESS;
-
-} /* End SAMPLE_LIB_Function */
-
-/************************/
-/*  End of File Comment */
-/************************/
+}

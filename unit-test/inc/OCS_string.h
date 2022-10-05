@@ -32,7 +32,7 @@
 #define OSC_STRING_H
 
 /* ----------------------------------------- */
-/* prototypes normally declared in string.h */
+/* prototypes normally declared in string.h  */
 /* ----------------------------------------- */
 
 extern char *OCS_strncpy(char *dest, const char *src, unsigned long size);
