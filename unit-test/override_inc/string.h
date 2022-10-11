@@ -34,7 +34,7 @@
 #include "OCS_string.h"
 
 /* ----------------------------------------- */
-/* mappings for declarations in string.h */
+/* mappings for declarations in string.h     */
 /* ----------------------------------------- */
 
 #define strncpy OCS_strncpy

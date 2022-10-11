@@ -61,8 +61,7 @@ int32 SAMPLE_LIB_Init(void)
      * case configures something different.
      */
     return UT_DEFAULT_IMPL(SAMPLE_LIB_Init);
-
-} /* End SAMPLE_LIB_Init */
+}
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /*                                                                 */
@@ -72,4 +71,4 @@ int32 SAMPLE_LIB_Init(void)
 int32 SAMPLE_LIB_Function(void)
 {
     return UT_DEFAULT_IMPL(SAMPLE_LIB_Function);
-} /* End SAMPLE_LIB_Function */
+}
