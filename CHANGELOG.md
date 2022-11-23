@@ -1,5 +1,9 @@
 # Changelog
 
+## Development Build: v1.3.0-rc4+dev32
+- Add newline at end of sample_lib.c
+- See <https://github.com/nasa/sample_lib/pull/92>
+
 ## Development Build: v1.3.0-rc4+dev28
 - Remove redundant comments
 - Create CHANGELOG.md
