@@ -26,7 +26,7 @@
 
 /* Development Build Macro Definitions */
 
-#define SAMPLE_LIB_BUILD_NUMBER     32 /*!< Development Build: Number of commits since baseline */
+#define SAMPLE_LIB_BUILD_NUMBER     2 /*!< Development Build: Number of commits since baseline */
 #define SAMPLE_LIB_BUILD_BASELINE   "equuleus-rc1" /*!< Development Build: git tag that is the base for the current development */
 #define SAMPLE_LIB_BUILD_DEV_CYCLE  "equuleus-rc2" /**< @brief Development: Release name for current development cycle */
 #define SAMPLE_LIB_BUILD_CODENAME   "Equuleus" /**< @brief: Development: Code name for the current build */
