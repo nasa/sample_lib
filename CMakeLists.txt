@@ -1,4 +1,5 @@
-project(CFE_SAMPLE_LIB C)
+cmake_minimum_required(VERSION 3.5)
+project(CFS_SAMPLE_LIB C)
 
 # Create the app module
 add_cfe_app(sample_lib fsw/src/sample_lib.c)

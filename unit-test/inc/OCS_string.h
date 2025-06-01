@@ -28,8 +28,8 @@
 ** strncpy().
 */
 
-#ifndef OSC_STRING_H
-#define OSC_STRING_H
+#ifndef OCS_STRING_H
+#define OCS_STRING_H
 
 /* ----------------------------------------- */
 /* prototypes normally declared in string.h  */

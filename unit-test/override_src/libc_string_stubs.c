@@ -76,6 +76,6 @@ char *OCS_strncpy(char *dst, const char *src, unsigned long size)
         memset(&dst[CopySize], 0, size - CopySize);
     }
 
-    /* normal response is to return a pointer to the source */
+    /* normal response is to return a pointer to the destination */
     return dst;
 }
