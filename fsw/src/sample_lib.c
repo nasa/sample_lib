@@ -50,7 +50,7 @@ int32 SAMPLE_LIB_Init(void)
     /*
      * Call a C library function, like strcpy(), and test its result.
      *
-     * This is primary for a unit test example, to have more than
+     * This is primarily for a unit test example, to have more than
      * one code path to exercise.
      *
      * The specification for strncpy() indicates that it should return
@@ -65,8 +65,8 @@ int32 SAMPLE_LIB_Init(void)
     /* ensure termination */
     SAMPLE_LIB_Buffer[sizeof(SAMPLE_LIB_Buffer) - 1] = 0;
 
-    CFE_Config_GetVersionString(VersionString, SAMPLE_LIB_CFG_MAX_VERSION_STR_LEN, "Sample Lib",
-        SAMPLE_LIB_VERSION, SAMPLE_LIB_BUILD_CODENAME, SAMPLE_LIB_LAST_OFFICIAL);
+    CFE_Config_GetVersionString(VersionString, SAMPLE_LIB_CFG_MAX_VERSION_STR_LEN, "Sample Lib", SAMPLE_LIB_VERSION,
+                                SAMPLE_LIB_BUILD_CODENAME, SAMPLE_LIB_LAST_OFFICIAL);
 
     OS_printf("SAMPLE Lib Initialized.%s\n", VersionString);
 

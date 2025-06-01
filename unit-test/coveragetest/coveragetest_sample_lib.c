@@ -67,7 +67,7 @@ static int32 UT_printf_hook(void *UserObj, int32 StubRetcode, uint32 CallCount, 
                             va_list va)
 {
     SAMPLE_LIB_Function_TestState_t *State  = UserObj;
-    const char *                     string = UT_Hook_GetArgValueByName(Context, "string", const char *);
+    const char                      *string = UT_Hook_GetArgValueByName(Context, "string", const char *);
 
     /*
      * The OS_printf() stub passes format string as the argument
