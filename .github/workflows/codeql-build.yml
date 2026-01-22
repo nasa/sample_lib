@@ -2,12 +2,20 @@ name: "CodeQL Analysis"
 
 on:
   push:
+    branches:
+      - dev
+      - main
   pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+  workflow_dispatch:
 
 jobs:
   codeql:
     name: Codeql
     uses: nasa/cFS/.github/workflows/codeql-reusable.yml@main
-    with: 
+    with:
       component-path: libs/sample_lib
       make: 'make -C build/native/default_cpu1/apps/sample_lib'
